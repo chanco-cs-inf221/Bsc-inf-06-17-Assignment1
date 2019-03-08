@@ -1,0 +1,322 @@
+
+header{
+    
+    background: rgb(32, 71, 60);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+header{
+    background: rgb(4, 189, 235);
+    color: black
+  }
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+  /*  background-color: #e9e9e9;*/
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .tools{
+      overflow:auto;
+  }
+ 
+img{
+    display: block;
+    top: 2%;
+    width: 16%;
+    height: 16%;
+    border-radius: 40%; 
+}
+
+
+.fa {
+    padding: 11px;
+    font-size: 11px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40%;
+    overflow: auto;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-google {
+
+    background: #dd4b39;
+    color: white;
+  }
+ 
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+
+#tab{
+    background-color:rgb(8, 119, 119); 
+    position:absolute;
+    top: 80%;
+    color: black;
+    padding: 4%;
+    border: 2% solid black;
+    width: 20%;
+    height: 55%;
+    overflow: auto;
+
+   }
+   #tab2{
+    background-color: rgb(8, 119, 119);
+    position: absolute;
+    top: 80%;
+    color: black;
+    padding: 4%;
+    border: 2% solid black;
+    left: 35%;
+    width: 20%;
+    height: 55%;
+    overflow: auto;
+   }
+   #tab3{
+    background-color: rgb(8, 119, 119);
+    position: absolute;
+    top: 80%;
+    color: black;
+    padding: 4%;
+    border: 10% solid black;
+    left: 70%;
+    width: 20%;
+    height: 55%;
+    overflow: auto;
+   }
+#footer{
+         position: absolute;
+         top:170%;
+         background-color: rgb(190, 252, 133);
+         width: 99%;
+         left: 0.5%;
+         overflow: auto;
+        }
+        
+   
+ @media screen and (max-width: 976px){
+    header{
+        background: rgb(17, 146, 206);
+        color: rgb(255, 255, 255);
+        padding: 35px;
+        overflow: auto;
+    
+    }
+
+.topnav {
+    overflow: hidden;
+   background-color: #e9e9e9;
+  
+}
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .about{
+    left: 40%;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+   
+img{
+    display: block;
+ 
+    width: 16%;
+    height: 16%;
+    border-radius: 50%; 
+    overflow: auto;
+}
+
+#tab{
+    background-color:rgb(8, 119, 119); 
+    position:absolute;
+    top: 65%;
+    color: black;
+    padding: 4%;
+    border: 2% solid black;
+    width: 20%;
+    height: 50%;
+    overflow: auto;
+
+   }
+   #tab2{
+    background-color: rgb(8, 119, 119);
+    position: absolute;
+    top: 65%;
+    color: black;
+    padding: 4%;
+    border: 2% solid black;
+    left: 35%;
+    width: 20%;
+    height: 50%;
+    overflow: auto;
+   }
+   #tab3{
+    background-color: rgb(8, 119, 119);
+    position: absolute;
+    top: 65%;
+    color: black;
+    padding: 4%;
+    border: 10% solid black;
+    left: 70%;
+    width: 20%;
+    height: 50%;
+    overflow: auto;
+   }
+#footer{
+    position: absolute;
+    top:150%;
+    overflow: auto;
+   }
+  }
+
+
+ /* When the screen is less than 1124px wide,*/
+@media screen and (max-width:768px){
+    header{
+        background: rgb(0, 174, 255);
+        color: rgb(255, 255, 255);
+        padding: 35px;
+        overflow: auto;
+    }
+/* Style the links inside the navigation bar */
+header{
+    background: rgb(4, 189, 235);
+    color: black
+  }
+  .topnav {
+    overflow: hidden;
+  /*  background-color: #e9e9e9;*/
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    overflow: auto;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+ 
+   img{
+    display: block;
+ 
+    width: 16%;
+    height: 16%;
+    border-radius: 50%; 
+    overflow: auto;
+}
+
+#tab{
+    background-color:rgb(8, 119, 119); 
+    position:absolute;
+    top: 90%;
+    color: black;
+    padding: 4%;
+    border: 2% solid black;
+    width: 20%;
+    height: 50%;
+    overflow: auto;
+
+   }
+   #tab2{
+    background-color: rgb(8, 119, 119);
+    position: absolute;
+    top: 90%;
+    color: black;
+    padding: 4%;
+    border: 2% solid black;
+    left: 35%;
+    width: 20%;
+    height: 50%;
+    overflow: auto;
+   }
+   #tab3{
+    background-color: rgb(8, 119, 119);
+    position: absolute;
+    top: 90%;
+    color: black;
+    padding: 4%;
+    border: 10% solid black;
+    left: 70%;
+    width: 20%;
+    height: 50%;
+    overflow: auto;
+   }
+   #footer{
+    position: absolute;
+    top:170%;
+    overflow: auto;
+
+     }
+  }
+}
